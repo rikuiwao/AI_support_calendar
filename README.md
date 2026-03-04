@@ -38,7 +38,7 @@ Ensure you have Python 3.8+ installed. You also need a Google Gemini API key.
 2. **Installation**:　　
 Clone the repository and install the required dependencies:
 ```text
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone [<your-repo-url>](https://github.com/rikuiwao/AI_support_calendar)
+cd <your-folder>hakkason
 pip install -r requirements.txt
 ```
