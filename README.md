@@ -39,6 +39,30 @@ Ensure you have Python 3.8+ installed. You also need a Google Gemini API key.
 Clone the repository and install the required dependencies:
 ```text
 git clone https://github.com/rikuiwao/AI_support_calendar
-cd <your-folder>hakkason
+cd <your-project-folder>
 pip install -r requirements.txt
 ```
+3. **Environment Setup**:  
+Create a .env file in the root directory and add your Gemini API key:
+```text
+GEMINI_API_KEY=your_actual_api_key_here
+```
+4. **Run the Application**:  
+Start the Streamlit server by running the main calendar file:
+```text
+streamlit run 01_Calendar.py
+```
+
+## 💡 Usage Guide
+1. **Adding Manual Events**:
+Go to the "Add Schedule" page to block out times for meetings or personal events.
+
+2. **AI Task Scheduling**:
+Navigate to the "To-Do List" page. Enter a new task in the top panel, set your time constraints, and click "🚀 Schedule with AI". The AI will populate your calendar.
+
+3. **Task Management**:
+Update task statuses directly in the To-Do list table. Click "Save Changes" to reflect updates on your calendar.
+
+## ⚠️ Important Notes
+- The SQLite database (schedule_app.db) is automatically generated upon the first run.
+- If you encounter database schema errors during development, simply delete the schedule_app.db file and restart the app to rebuild the tables.
