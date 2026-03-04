@@ -1,6 +1,7 @@
 # 📅 AI-Powered Schedule & To-Do Manager
 ![Main View](https://github.com/user-attachments/assets/f60bb652-a3f6-401f-98e7-3becb85ee0da)
 ![Main View](https://github.com/user-attachments/assets/debba1cc-c4b0-45b3-8b44-d8598df94d52)
+![Main View](https://github.com/user-attachments/assets/0788470e-ee3f-49e1-a0da-3138eccf83cd)
 An intelligent calendar and task management application built with Python and Streamlit. This app seamlessly integrates a traditional to-do list with a dynamic calendar, leveraging Google's Gemini AI to automatically schedule your tasks based on estimated hours, deadlines, and your personal time constraints.
 
 ## ✨ Key Features
