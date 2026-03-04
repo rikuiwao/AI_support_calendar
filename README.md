@@ -33,6 +33,12 @@ An intelligent calendar and task management application built with Python and St
     └── 03_Add_Schedule.py  # Manual schedule entry
 ```
 ## 🚀 Getting Started
-1. **Prerequisites**:
-   Ensure you have Python 3.8+ installed. You also need a Google Gemini API key.
-2. **Installation**: 
+1. **Prerequisites**:　　
+Ensure you have Python 3.8+ installed. You also need a Google Gemini API key.
+2. **Installation**:　　
+Clone the repository and install the required dependencies:
+```text
+git clone <your-repo-url>
+cd <your-project-folder>
+pip install -r requirements.txt
+```
